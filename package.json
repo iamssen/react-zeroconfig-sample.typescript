@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "web.build": "zeroconfig web.build",
+    "web.dev.start": "zeroconfig web.dev.start",
+    "start": "npm run web.dev.start",
+    "build": "npm run web.build"
+  },
+  "author": "",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-app-polyfill": "^0.2.2",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "react-zeroconfig": "^2.0.0-alpha.1"
+  }
+}
