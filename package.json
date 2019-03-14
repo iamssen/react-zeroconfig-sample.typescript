@@ -6,15 +6,21 @@
     "web.build": "zeroconfig web.build",
     "web.dev.start": "zeroconfig web.dev.start",
     "start": "npm run web.dev.start",
-    "build": "npm run web.build"
+    "build": "npm run web.build",
+    "lint": "tslint \"src/**/!(*.spec|*.test).ts?(x)\""
   },
-  "author": "",
   "dependencies": {
     "react": "^16.8.4",
     "react-app-polyfill": "^0.2.2",
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
-    "react-zeroconfig": "^2.0.0-alpha.1"
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@types/webpack-env": "^1.13.9",
+    "react-zeroconfig": "^2.0.0",
+    "tslint": "^5.14.0",
+    "tslint-ssen-rules": "^1.1.0",
+    "typescript": "^3.3.3333"
   }
 }
